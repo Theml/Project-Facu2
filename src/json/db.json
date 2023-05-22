@@ -1,0 +1,32 @@
+{
+    "users":[
+        {"id": 1, "login": "Joãozin", "senha":"123", "admin": true, "aluno": 1 },
+        {"id": 2, "login": "Gustavin", "senha":"123", "admin": false, "aluno": 2 },
+        {"id": 3, "login": "José", "senha":"123", "admin": false, "aluno": 3 }
+    ],
+
+    "aluno":[
+        {"id":1, "nome":"Joãozin", "matricula":"225544897"},
+        {"id":2, "nome":"Gustavin", "matricula":"225578948"},
+        {"id":3, "nome":"José", "matricula":"225566897"}
+    ],
+
+    "matricula":[
+        {"id":1, "nome": "front-end", "nota1": 8, "nota2": 9 , "aluno": 1, "professor": 1 },
+        {"id":2, "nome": "Orientação a Objeto", "nota1": 7, "nota2": 2 , "aluno": 2, "professor": 2 },
+        {"id":3, "nome": "Analise de Risco", "nota1": 1, "nota2": 7 , "aluno": 3, "professor": 3 },
+        {"id":4, "nome": "Analise de Risco", "nota1": 8, "nota2": 9 , "aluno": 1, "professor": 3 },
+        {"id":5, "nome": "front-end", "nota1": 7, "nota2": 2 , "aluno": 2, "professor": 1 },
+        {"id":6, "nome": "Orientação a Objeto", "nota1": 1, "nota2": 7 , "aluno": 3, "professor": 2 },
+        {"id":7, "nome": "Orientação a Objeto", "nota1": 8, "nota2": 9 , "aluno": 1, "professor": 3 },
+        {"id":8, "nome": "Analise de Risco", "nota1": 7, "nota2": 2 , "aluno": 2, "professor": 1 },
+        {"id":9, "nome": "front-end", "nota1": 1, "nota2": 7 , "aluno": 3, "professor": 2 }
+    ],
+
+    "professor":[
+        {"id":1, "nome": "Daves", "email": "daves@uniacademia.com"},
+        {"id":2, "nome": "Marco", "email": "marco@uniacademia.com"},
+        {"id":3, "nome": "Evaldo", "email": "evaldo@uniacademia.com"}
+    ]
+
+}
